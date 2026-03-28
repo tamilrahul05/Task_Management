@@ -17,3 +17,6 @@ npm run dev
 
 Open:
 http://localhost:5173
+
+3.JSON Data View
+http://localhost:8080/api/tasks
