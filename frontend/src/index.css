@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+/* Button */
+.btn-primary {
+  padding: 10px 20px;
+  background-color: #2563eb; 
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+/* Card */
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+/* Input */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5f5;
+  border-radius: 10px;
+  outline: none;
+}
+.glass-nav {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(10px);
+}
+ 
+
+.overdue-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { border-color: lightcoral; }
+  50% { border-color: red; }
+  100% { border-color: lightcoral; }
+}
